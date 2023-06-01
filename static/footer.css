@@ -1,0 +1,12 @@
+/* Footer */
+.footer {
+  margin-top: 10px;
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+.footer::after {
+  content: "";
+  clear: both;
+  display: table;
+}

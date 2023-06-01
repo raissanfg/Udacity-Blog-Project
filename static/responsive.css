@@ -1,0 +1,53 @@
+/* Responsive layout - when the screen becomes less than 800px wide, make the two columns stack on top of each other 
+@media screen and (max-width: 800px) {
+
+    .leftcolumn,
+    .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  } */
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+
+  /* CSS code for mobile devices */
+  /* Example: */
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+
+  /* CSS code for tablet devices */
+  /* Example: */
+  .leftcolumn {
+    width: 70%;
+    padding: 0;
+  }
+
+  .rightcolumn {
+    width: 30%;
+    padding: 0;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1025px) {
+
+  /* CSS code for desktop devices */
+  /* Example: */
+  .leftcolumn {
+    float: left;
+    width: 70%;
+  }
+
+  .rightcolumn {
+    float: right;
+    width: 30%;
+  }
+}
