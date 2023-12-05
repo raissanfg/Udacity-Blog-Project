@@ -1,7 +1,8 @@
 # Udacity-Blog-Project
 Blog Project using HTML and CSS
 
-![blog](https://github.com/raissanfg/Udacity-Blog-Project/assets/99144281/d68d392b-1bf4-4b9c-a77c-352f4100bd58)
+
+![blog](https://github.com/raissanfg/Udacity-Blog-Project/assets/99144281/3671a4a4-3663-4446-87d7-6e19e633fc6a)
 
 
 # Blog Page Construction Project
