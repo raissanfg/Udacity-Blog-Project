@@ -53,10 +53,10 @@ users with diverse needs and abilities.
 
 * Optimization: Ongoing optimization to improve page load times and overall performance.
 
-### Deploy:
+# Deploy:
 https://raissa-gomes-blog-project.surge.sh/
 
-### Contributions
+# Contributions
 I welcome contributions and feedbacks! If you have ideas for improvements or would like to contribute to the project, please feel free to submit a pull request or open an issue.
 
 Thank you for exploring my blog page project!
