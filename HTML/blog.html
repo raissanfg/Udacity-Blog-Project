@@ -1,19 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <link rel="stylesheet" href="../static/main.css">
+  <meta charset="utf-8" />
+  <title>Personal Blog Website</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
   <nav>
-    <div class="nav">
+    <div class="navegation-menu">
       <ul>
-        <li><a class="active" href="../root directory/index.html">Home</a></li>
-        <li><a href="../html /about.html">About</a></li>
-        <li><a href="../html /blog.html">Blog</a></li>
-        <li><a href="../html /resources.html">Ressources</a></li>
+        <li><a class="active" href="../index.html">Home</a></li>
+        <li><a href="../HTML/about.html">About</a></li>
+        <li><a href="../HTML/blog.html">Blog</a></li>
+        <li><a href="../HTML/resources.html">Resources</a></li>
       </ul>
     </div>
   </nav>
@@ -22,14 +25,13 @@
     <h1>Blog</h1>
   </div>
 
-  <div class="row">
-    <div class="leftcolumn">
-      <div class="card">
-
+  <div class="container">
+    <div class="left-column">
+      <div class="card-left">
         <h2 id="missed">Misscariage</h2>
 
         <div class="img">
-          <img class="wmn" src="../Images/wmn1.jpg" alt="Woman">
+          <img class="wmn" src="../IMAGES/wmn1.jpg" alt="Woman">
         </div>
 
         <p class="par-miss">A miscarriage, also known as a <em>spontaneous abortion,</em> is the loss of a pregnancy
@@ -70,7 +72,7 @@
 
         <p class="par-miss"> <b>It's important to note that in the majority of cases, miscarriage is not caused by
             something the mother did or did not do. It is often a result of natural biological processes or factors
-            beyond her control.</b> 
+            beyond her control.</b>
         </p>
 
         <p class="par-miss">If a woman experiences recurrent miscarriages (three or more consecutive losses), it may be
@@ -85,11 +87,11 @@
 
       </div>
 
-      <div class="card">
+      <div class="card-left">
         <h2 id="what-now">What Happens Now?</h2>
 
         <div class="img">
-          <img class="wmn" src="../Images/wmn2.jpg" alt="Woman">
+          <img class="wmn" src="../IMAGES/wmn2.jpg" alt="Woman">
         </div>
 
         <ul class="what-now-blog">
@@ -122,7 +124,7 @@
       </div>
 
 
-      <div class="card">
+      <div class="card-left">
         <h2 id="coping">How can I cope with my Misscariage</h2>
 
         <div class="img">
@@ -134,7 +136,7 @@
         </p>
 
         <p class="coping-blog">Allow yourself to grieve: Acknowledge and honor your feelings of loss. It's important to
-          give yourself permission to grieve and understand that it's a natural part of the healing process. 
+          give yourself permission to grieve and understand that it's a natural part of the healing process.
         </p>
 
         <p class="coping-blog">Seek support: Reach out to trusted family members, friends, or support groups who can
@@ -159,7 +161,7 @@
 
         <p class="coping-blog">Give yourself time: Healing from a miscarriage is a personal journey, and everyone's
           healing process is unique. Remember that it's normal to have ups and downs, and healing takes time. <u>Be
-          patient and gentle with yourself </u>as you navigate through the grieving process.
+            patient and gentle with yourself </u>as you navigate through the grieving process.
         </p>
 
         <p class="coping-blog">Consider memorialization: Finding a meaningful way to honor the memory of your lost
@@ -175,39 +177,85 @@
       </div>
     </div>
 
-    <div class="rightcolumn">
+    <div class="right-column">
+      <div class="card-right">
+        <img class="wmn" src="../IMAGES/ri.png" alt="Riri">
 
-      <div class="card">
-        <img class="img-ri" src="../Images/ri.png" alt="Riri">
-        <h5 class="bio"> The Blog's Author: Raíssa Gomes<br>
+        <h3> The Blog's Author: Raíssa Gomes<br>
           Tittle: "We are Here for you"<br>
           Company: "We are here for you"<br>
           School: None <br>
           <hr>
-          Bio: "Meet Raissa Gomes, a passionate advocate dedicated to building a supportive community for women who have
-          experienced similar challenges and hardships. With a deep understanding of the struggles and turbulence that
+        </h3>
+
+        <h4>Bio: "Meet Raissa Gomes, a passionate advocate dedicated to building a supportive community for women who
+          have experienced similar challenges and hardships.
+        </h4>
+
+        <h4> With a deep understanding of the struggles and turbulence that
           women often face, Raissa is committed to fostering connections and empowering others on their unique journeys.
-          Through her work, she aims to create a safe and inclusive space where women can come together, find solace,
-          and support one another in overcoming obstacles. Join Raissa in this inspiring endeavor as she paves the way
+        </h4>
+        <h4>Through her work, she aims to create a safe and inclusive space where women can come together, find solace,
+          and support one another in overcoming obstacles.
+        </h4>
+        <h4> Join Raissa in this inspiring endeavor as she paves the way
           for a stronger and more resilient community of women." <br>
-        </h5>
-      </div>
+        </h4>
 
-      <div class="card">
-        <h3>Follow Me</h3>
-        <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
-        <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
-        <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
-        <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
-        <a href="https://www.pinterest.com/" class="fa fa-pinterest"></a>
       </div>
+      
+      <div class="card-right">
 
+        <a href="./HTML/resources.html">
+            <h2>Resources</h2>
+        </a>
+
+        <div class="card-right">
+            <div class="img">
+                <img class="wmn" src="../IMAGES/wmn4.jpg" alt="Support Group">
+                <a href="./HTML/resources.html">
+                    <figcaption class="caption-img-right">
+                        Support Group
+                    </figcaption>
+                </a>
+            </div>
+        </div>
+
+        <div class="card-right">
+        <div class="img">
+            <img class="wmn" src="../IMAGES/share your story.jpg" alt="Share your Story">
+            <a href="../html /resources.html">
+                <figcaption class="caption-img-right">
+                    Share your Story
+                </figcaption>
+            </a>
+        </div>
+        </div>
+
+        <div class="card-right">
+        <div class="img">
+            <img class="wmn" src="../IMAGES/wmn5.jpg" alt="Shared Stories">
+            <a href="./html /resources.html">
+                <figcaption class="caption-img-right">
+                    Shared Stories
+                </figcaption>
+            </a>
+        </div>
+        </div>
+      
     </div>
+  </div>
   </div>
 
   <div class="footer">
     <h2>@weAreHereForYou 2023</h2>
+    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+    <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+    <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+    <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+    <a href="https://www.pinterest.com/" class="fa fa-pinterest"></a>
   </div>
 
 </body>
+
 </html>
